@@ -1,0 +1,5 @@
+"Plugin","Plugin Name","Family","Severity","VPR","Total"
+"35291","SSL Certificate Signed Using Weak Hashing Algorithm","General","High","4.9","2"
+"57608","SMB Signing not required","Misc.","Medium","","11"
+"136929","JQuery 1.2 < 3.5.0 Multiple XSS","CGI abuses : XSS","Medium","5.7","5"
+"78479","SSLv3 Padding Oracle On Downgraded Legacy Encryption Vulnerability (POODLE)","General","Low","5.1","1"
