@@ -1,4 +1,4 @@
-﻿EventID;Version;Detailed Message;MinimumOSRequirement
+﻿EventID;Version;DetailedMessage;MinimumOSRequirement
 4608;0;"Windows is starting up.
 This event is logged when LSASS.EXE starts and the auditing subsystem is initialized.";Windows Vista, Windows Server 2008
 4609;0;"Windows is shutting down.
