@@ -1511,7 +1511,7 @@ Policy Source:  %2
 
 %1
 %2";Windows Vista, Windows Server 2008
-4711;0;%1;Windows Vista, Windows Server 2008
+4711;0;PAStore Engine;Windows Vista, Windows Server 2008
 4712;0;"IPsec Services encountered a potentially serious failure.
 %1";Windows Vista, Windows Server 2008
 4713;0;"Kerberos policy was changed.
@@ -2822,7 +2822,7 @@ Additional Information:
  Privileges:  %8
 
 Every hour, the Windows domain controller that holds the primary domain controller (PDC) Flexible Single Master Operation (FSMO) role compares the ACL on all security principal accounts (users, groups, and machine accounts) present for its domain in Active Directory and that are in administrative groups against the ACL on the AdminSDHolder object.  If the ACL on the principal account differs from the ACL on the AdminSDHolder object, then the ACL on the principal account is reset to match the ACL on the AdminSDHolder object and this event is generated.";Windows Vista, Windows Server 2008
-4781;0;"The name of an account was changed:
+4781;0;"The name of an account was changed.
 
 Subject:
  Security ID:  %5
@@ -3194,7 +3194,7 @@ Access Request Information:
  Access Mask: %12
  Privileges Used for Access Check: %13
  Restricted SID Count: %14";Windows 7, Windows Server 2008 R2
-4818;0;"Proposed Central Access Policy does not grant the same access permissions as the current Central Access Policy
+4818;0;"Proposed Central Access Policy does not grant the same access permissions as the current Central Access Policy.
 
 Subject:
  Security ID:  %1
@@ -3904,7 +3904,7 @@ Rule:
 4956;0;"Windows Firewall has changed the active profile.
 
 New Active Profile: %1";Windows Vista, Windows Server 2008
-4957;0;"Windows Firewall did not apply the following rule:
+4957;0;"Windows Firewall did not apply the following rule.
 
 Rule Information:
  ID: %1
@@ -3912,7 +3912,7 @@ Rule Information:
 
 Error Information:
  Reason: %3 resolved to an empty set.";Windows Vista, Windows Server 2008
-4958;0;"Windows Firewall did not apply the following rule because the rule referred to items not configured on this computer:
+4958;0;"Windows Firewall did not apply the following rule because the rule referred to items not configured on this computer.
 
 Rule Information:
  ID: %1
