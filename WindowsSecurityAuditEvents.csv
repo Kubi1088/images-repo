@@ -336,7 +336,7 @@ The authentication information fields provide detailed information about this sp
         - Transited services indicate which intermediate services have participated in this logon request.
         - Package name indicates which sub-protocol was used among the NTLM protocols.
         - Key length indicates the length of the generated session key. This will be 0 if no session key was requested.";Windows Vista, Windows Server 2008
-4626;0;"User / Device claims information
+4626;0;"User / Device claims information.
 
 Subject:
  Security ID:  %1
@@ -407,7 +407,7 @@ Logon Type:   %5
 
 This event is generated when a logon session is destroyed. It may be positively correlated with a logon event using the Logon ID value. Logon IDs are only unique between reboots on the same computer.";Windows Vista, Windows Server 2008
 4646;0;%1;Windows Vista, Windows Server 2008
-4647;0;"User initiated logoff:
+4647;0;"User initiated logoff.
 
 Subject:
  Security ID:  %1
@@ -934,7 +934,7 @@ Application Information:
  Application Instance ID: %2
 
 Status: %6";Windows Vista, Windows Server 2008
-4666;0;"An application attempted an operation:
+4666;0;"An application attempted an operation.
 
 Subject:
  Client Name:  %5
@@ -3581,7 +3581,7 @@ Valid To:  %3";Windows Vista, Windows Server 2008
 Table ID: %1
 Filter: %2
 Rows Deleted: %3";Windows Vista, Windows Server 2008
-4897;0;Role separation enabled: %1;Windows Vista, Windows Server 2008
+4897;0;Role separation enabled.;Windows Vista, Windows Server 2008
 4898;0;"Certificate Services loaded a template.
 
 %1 v%2 (Schema V%3)
@@ -6220,7 +6220,7 @@ Number of instances: %2";Windows 7, Windows Server 2008 R2
 
 Firewall category: %1
 ";Windows 7, Windows Server 2008 R2
-6407;0;Firewall category unregistered:    %1;Windows 7, Windows Server 2008 R2
+6407;0;Firewall category unregistered.;Windows 7, Windows Server 2008 R2
 6408;0;"Registered product %1 failed and Windows Firewall is now controlling the filtering for %2.
 
 Firewall category:    %1";Windows 7, Windows Server 2008 R2
